@@ -1,2 +1,2 @@
-# 04_LucioHuam-n_T4
+# 04_LucioHuamán_T4
 Encriptación y Descencriptación con 3 algoritmos de Criptografía. Hash: Md5 - Cifrado Asimétrico:RSA - Cifrado Simétrico:AES
