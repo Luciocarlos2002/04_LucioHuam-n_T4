@@ -21,9 +21,9 @@ public class DES {
 
             cipher.init(Cipher.ENCRYPT_MODE, key);
 
-            CipherInputStream cipt=new CipherInputStream(new FileInputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuamán_T4\\LucioHuaman.jpg")), cipher);
+            CipherInputStream cipt=new CipherInputStream(new FileInputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuaman_T4\\LucioHuaman.jpg")), cipher);
 
-            FileOutputStream fileip=new FileOutputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuamán_T4\\encrypt.jpg"));
+            FileOutputStream fileip=new FileOutputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuaman_T4\\encrypt.txt"));
             System.err.println("Imagen Ecriptada dentro de la carpeta - 04_LucioHuamán_T4");
 
             int i;
@@ -35,9 +35,9 @@ public class DES {
 
             cipher.init(Cipher.DECRYPT_MODE, key);
 
-            CipherInputStream ciptt=new CipherInputStream(new FileInputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuamán_T4\\encrypt.jpg")), cipher);
+            CipherInputStream ciptt=new CipherInputStream(new FileInputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuaman_T4\\encrypt.txt")), cipher);
 
-            FileOutputStream fileop=new FileOutputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuamán_T4\\decrypt.jpg"));
+            FileOutputStream fileop=new FileOutputStream(new File("C:\\Users\\Carlos\\Desktop\\04_LucioHuaman_T4\\decrypt.jpg"));
             System.err.println("Descencriptando la imagen Encriptada en la carpeta - 04_LucioHuamán_T4");
 
             int j;
