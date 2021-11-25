@@ -6,10 +6,10 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.util.Base64;
 
-/**
- * Cifrado Asimétrico
- * Creamos una clase RSA para la encriptación y descencriptación.
- */
+    /**
+     * Cifrado Asimétrico
+     * Creamos una clase RSA para la encriptación y descencriptación.
+     */
 public class RSA {
     /**
      * Creamos una par de claves con KeyPairGenerator para obtener nuestras claves privadas y públicas.
